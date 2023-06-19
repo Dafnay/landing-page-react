@@ -1,0 +1,40 @@
+.features-icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.people-icon{
+    width: 90px;
+    height: 90px;
+    background-color: #EBE7FA;
+    border-radius: 50%;
+}
+.code-icon{
+    width: 90px;
+    height: 90px;
+    background-color: #7ef9c684;
+    border-radius: 50%;
+}
+.gear-icon{
+    width: 90px;
+    height: 90px;
+    background-color: #ec849484;
+    border-radius: 50%;
+}
+.speak-icon{
+    width: 90px;
+    height: 90px;
+    background-color: #eed26284;
+    border-radius: 50%;
+}
+.rocket-icon{
+    width: 90px;
+    height: 90px;
+    background-color: #71bfef84;
+    border-radius: 50%;
+}

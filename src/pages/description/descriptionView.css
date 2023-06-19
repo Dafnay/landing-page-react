@@ -1,0 +1,37 @@
+.download-red{
+    background-color:#ff556e;
+	border-radius:28px;
+	border:1px solid #ff556e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open Sans', sans-serif;;
+	font-size:15px;
+    font-weight: 700;
+	padding:15px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3f413f;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 5%;
+    margin-right: 5%;
+   
+}
+.download-red:hover{
+    
+    box-shadow: #f6abb5 0px 2px 70px 4px;
+    transition: all 0.2s ease;
+    color: #f4eff0;
+}
+
+.iphone{
+    height: 350px;
+    max-height: 450px;
+    animation: tiembla 0.1s infinite;
+}
+  @keyframes tiembla{
+    0%  { transform:rotateZ(-5deg); }
+    50% { transform:rotateZ( 0deg) scale(1); }
+    100%{ transform:rotateZ( 5deg); }
+  }
